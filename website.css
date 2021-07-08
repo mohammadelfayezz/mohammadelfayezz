@@ -1,0 +1,814 @@
+* {
+    margin: 0;
+    padding:0
+    }
+    #laptop {
+        background-image:url('C:/Users/skeie/Downloads/Laptopp/Laptop.jpg');
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    #Accessories {
+        background-image:url('C:/Users/skeie/Downloads/Laptopp/mousee.jpg');
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .z {text-align: center;}
+    :root {font-size:10px;}
+    
+    body {
+        margin:0;
+        width: 100%;
+        font-size: 1rem;
+    }
+    a {text-decoration: none;}
+    .a {
+        color: white;
+    }
+    
+        .p2 {
+            text-align: center;
+        }
+    
+   @media (max-width:300px){
+
+    nav {
+        background: teal;
+        height: 2.4rem;
+        width:100%;
+        box-shadow: 0.15rem 0.05rem 0.1rem rgba(0, 0, 0, 0.28) 
+     }
+          
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+        padding: 0.5rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.2rem;
+    }
+         .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1px 1px 3px 0px;
+            height:8rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.25rem ;
+               font-family: verdana;
+               font-size:0.5rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.15rem;
+               margin-top:6rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.8rem;
+            margin-top: 2.4rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.6rem;
+            margin-bottom: 2.1rem;
+            margin-top: 0.18rem;
+    
+        }
+   }
+
+   @media (min-width:301px) and (max-width:350px){
+
+    nav {
+        background: teal;
+        height: 3rem;
+        width:100%;
+        box-shadow: 0.2rem 0.1rem 0.15rem rgba(0, 0, 0, 0.28) 
+     }
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.1rem;
+        padding: 0.6rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.3rem;
+    }
+         .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1px 1px 3px 0px;
+            height:9rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.25rem ;
+               font-family: verdana;
+               font-size:0.55rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.2rem;
+               margin-top:7rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            margin-top: 2.55rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.8rem;
+            margin-bottom: 2.4rem;
+            margin-top: 0.25rem;
+    
+        }
+       
+   }
+
+   @media (min-width:351px) and (max-width:400px){
+    
+    nav {
+        background: teal;
+        height: 3.6rem;
+        width:100%;
+        box-shadow: 0.2rem 0.1rem 0.15rem rgba(0, 0, 0, 0.28) 
+     }
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.4rem;
+    }
+
+         .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1px 1px 3px 0px;
+            height:10rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.25rem ;
+               font-family: verdana;
+               font-size:0.6rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.2rem;
+               margin-top:8rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.2rem;
+            margin-top: 2.8rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1rem;
+            margin-bottom: 2.7rem;
+            margin-top: 0.33rem;
+    
+        }
+   }
+
+   @media (min-width:401px) and (max-width:450px){
+  
+    nav {
+        background: teal;
+        height: 4rem;
+        width:100%;
+        box-shadow: 0.3rem 0.15rem 0.2rem rgba(0, 0, 0, 0.28) 
+     }
+    
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3rem;
+        padding: 0.7rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.5rem;
+        
+        }
+         .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1px 1px 3px 0px;
+            height:11rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.3rem ;
+               font-family: verdana;
+               font-size:0.65rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.25rem;
+               margin-top:9rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.45rem;
+            margin-top: 3rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            margin-top: 0.4rem;
+    
+        }
+
+   }
+   @media (min-width:451px) and (max-width:500px){
+    
+    nav {
+        background: teal;
+        height: 4.5rem;
+        width:100%;
+        box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28) 
+     }
+    
+ 
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
+        padding: 0.8rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.6rem;
+        
+        }
+    .list .link:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+    }
+         .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1.5px 1.5px 5px 0px;
+            height:12rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.35rem ;
+               font-family: verdana;
+               font-size:0.7rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.25rem;
+               margin-top:10rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.6rem;
+            margin-top: 3.25rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.4rem;
+            margin-bottom: 3.25rem;
+            margin-top: 0.5rem;
+    
+        }
+   }
+
+   @media (min-width:501px) and (max-width:550px){
+   .searchiphone1 {
+       text-align: center;
+       font-size:4rem;
+       padding-top:0.3rem
+   }
+   nav {
+       background: teal;
+       height: 5rem;
+       width:100%;
+       box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28) 
+    }
+   
+
+    .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.5rem;
+        
+        }
+    .list .link:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+    }
+ 
+        .box1 {
+            box-shadow: rgba(0, 0, 0, 0.28) 1.5px 1.5px 5px 0px;
+            height:13rem;
+            width:33%;
+            margin-left:11.5%;
+            margin-top:5%;
+            float:left;
+           }
+           .button1:link, .button1:visited {
+               background-color:#008080;
+               text-decoration: none;
+               padding:0.4rem ;
+               font-family: verdana;
+               font-size:0.75rem;
+               display: inline-block;
+               color:white;
+               border-radius: 0.3rem;
+               margin-top:10.7rem;
+               }
+               
+           .button1:hover, .button1:active {
+               background-color: #5f9ea0;
+           }
+           #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.7rem;
+            margin-top: 3.3rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.55rem;
+            margin-bottom: 3.3rem;
+            margin-top: 0.6rem;
+    
+        }
+        
+   }
+
+   @media (min-width:551px) and (max-width:600px){
+   
+
+    nav {
+        background: teal;
+        height: 5rem;
+        width:100%;
+        box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28) 
+     }
+     .ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list {
+        float:right;
+        
+    }
+    .list .link {
+        display: list-item;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.7rem;
+        padding: 0.9rem;
+        color:white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 0.3rem;
+        
+        }
+    .list .link:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+    }
+ 
+         
+ 
+    
+      
+        
+         .box1 {
+             box-shadow: rgba(0, 0, 0, 0.28) 1.5px 1.5px 5px 0px;
+             height:13rem;
+             width:33%;
+             margin-left:11.5%;
+             margin-top:5%;
+             float:left;
+            }
+            .button1:link, .button1:visited {
+                background-color:#008080;
+                text-decoration: none;
+                padding:0.4rem ;
+                font-family: verdana;
+                font-size:0.75rem;
+                display: inline-block;
+                color:white;
+                border-radius: 0.3rem;
+                margin-top:10.7rem;
+                }
+                
+            .button1:hover, .button1:active {
+                background-color: #5f9ea0;
+            }
+            #ok{
+             color: rgba(0, 128, 128, 0.67);
+             text-align: center;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-size: 2.7rem;
+             margin-top: 3.3rem;
+         }
+         #okk { color: rgba(0, 128, 128, 0.5);
+             text-align: center;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-size: 1.55rem;
+             margin-bottom: 3.3rem;
+             margin-top: 0.6rem;
+     
+         }
+
+   }
+   
+   @media (min-width:601px) and (max-width:700px){
+    #searchiphone {display: none;}
+    #searchiphone4 {display: none;}
+    nav {
+        height: 4rem;
+        width:100%;
+        box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28)  ;
+        background-color:teal;}
+.ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list {
+    float:right;
+    
+}
+.list .link {
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+    
+    }
+.list .link:hover {
+    color: #560319;
+    transition-duration: 0.5s;
+}
+.list .link5{
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:0.5rem;
+     }
+     .list .link5:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+     }
+     .box1 {
+       box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 9px 0px;
+        height:19rem;
+        width:33%;
+        margin-left:11.5%;
+        margin-top:5%;
+        float:left;
+       }
+       .button1:link, .button1:visited {
+           background-color:#008080;
+           text-decoration: none;
+           padding:0.5rem ;
+           font-family: verdana;
+           font-size:0.9rem;
+           display: inline-block;
+           color:white;
+           border-radius: 0.3rem;
+           margin-top:16rem;
+           }
+           
+       .button1:hover, .button1:active {
+           background-color: #5f9ea0;
+       }
+       #ok{
+        color: rgba(0, 128, 128, 0.67);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3.3rem;
+        margin-top: 3.8rem;
+    }
+    #okk { color: rgba(0, 128, 128, 0.5);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        margin-bottom: 3.8rem;
+        margin-top: 0.8rem;
+
+    }
+
+
+   }
+
+   @media (min-width:701px) and (max-width:800px){
+    #searchiphone {display: none;}
+    #searchiphone4 {display: none;}
+    nav {
+        height: 5rem;
+        width:100%;
+        box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28)  ;
+        background-color:teal;}
+.ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list {
+    float:right;
+    
+}
+.list .link {
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+    
+    }
+.list .link:hover {
+    color: #560319;
+    transition-duration: 0.5s;
+}
+.list .link5{
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:1rem;
+     }
+     .list .link5:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+     }
+     .box1 {
+        box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 9px 0px;
+        height:23rem;
+        width:33%;
+        margin-left:11.5%;
+        margin-top:5%;
+        float:left;
+       }
+       .button1:link, .button1:visited {
+           background-color:#008080;
+           text-decoration: none;
+           padding:0.7rem ;
+           font-family: verdana;
+           font-size:1.1rem;
+           display: inline-block;
+           color:white;
+           border-radius: 0.5rem;
+           margin-top:19rem;
+           }
+           
+       .button1:hover, .button1:active {
+           background-color: #5f9ea0;
+       }
+       #ok{
+        color: rgba(0, 128, 128, 0.67);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+    #okk { color: rgba(0, 128, 128, 0.5);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.2rem;
+        margin-bottom: 4rem;
+        margin-top: 0.9rem;
+
+    }
+
+   }
+
+   @media (min-width:800px){
+    #searchiphone4 {display: none;}
+    #searchiphone {display: none;}
+    nav {
+        height: 6.5rem;
+        width:100%;
+        box-shadow: 0.5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.28)  ;
+        background-color:teal;}
+.ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list {
+    float:right;
+    
+}
+.list .link {
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    padding: 1.7rem;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+    
+    }
+.list .link:hover {
+    color: #560319;
+    transition-duration: 0.5s;
+}
+.list .link5{
+    display: list-item;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:1.5rem;
+     }
+     .list .link5:hover {
+        color: #560319;
+        transition-duration: 0.5s;
+     }
+     .box1 {
+         box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 9px 0px;
+         height:30rem;
+         width:33%;
+         margin-left:11.5%;
+         margin-top:5%;
+         float:left;
+        }
+        .button1:link, .button1:visited {
+            background-color:#008080;
+            text-decoration: none;
+            padding:0.9rem ;
+            font-family: verdana;
+            font-size:1.5rem;
+            display: inline-block;
+            color:white;
+            border-radius: 0.5rem;
+            margin-top:24.5rem;
+            }
+            
+        .button1:hover, .button1:active {
+            background-color: #5f9ea0;
+        }
+        #ok{
+            color: rgba(0, 128, 128, 0.67);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 4rem;
+            margin-top: 5rem;
+        }
+        #okk { color: rgba(0, 128, 128, 0.5);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 5rem;
+            margin-top: 1rem;
+    
+        }
+
+ 
+  
+}
+   
+       
